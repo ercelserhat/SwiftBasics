@@ -14,3 +14,16 @@ var urunFiyat:Double = 109.99
 var urunTedarikci:String = "Rolex"
 
 print(urunId, urunAd, urunAdet, urunFiyat, urunTedarikci)
+
+var araba:String?
+araba = "Mercedes"
+print(araba!)
+araba = "BMW"
+print(araba!)
+//araba = "AUDI"
+print(araba!)
+
+var sayi1 = 10, sayi2 = 30
+var toplam = sayi1 + sayi2
+print(toplam)
+
