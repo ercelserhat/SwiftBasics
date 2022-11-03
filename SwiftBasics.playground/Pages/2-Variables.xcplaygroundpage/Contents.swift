@@ -27,3 +27,8 @@ var sayi1 = 10, sayi2 = 30
 var toplam = sayi1 + sayi2
 print(toplam)
 
+//CONSTANTS
+let pi:Double = 3.14
+let oran = 3
+let isim = "SERHAT"
+print(pi, oran, isim)
