@@ -3,5 +3,6 @@
     <pages>
         <page name='1-HelloWorld'/>
         <page name='2-Variables'/>
+        <page name='3-PrintFunction'/>
     </pages>
 </playground>
