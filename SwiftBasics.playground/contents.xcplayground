@@ -6,5 +6,7 @@
         <page name='3-PrintFunction'/>
         <page name='4-Tuples'/>
         <page name='5-If_Else'/>
+        <page name='6-Switch'/>
+        <page name='Loops'/>
     </pages>
 </playground>
