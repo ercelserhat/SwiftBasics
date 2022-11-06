@@ -9,5 +9,6 @@
         <page name='6-Switch'/>
         <page name='7-Loops'/>
         <page name='8-SomeCommands'/>
+        <page name='9-Optional'/>
     </pages>
 </playground>
