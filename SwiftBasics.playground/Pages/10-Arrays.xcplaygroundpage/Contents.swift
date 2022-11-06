@@ -37,3 +37,16 @@ meyveler.reverse()
 meyveler.sort()
 meyveler.remove(at: 1)
 meyveler.removeAll()
+
+
+//Array filtreleme
+var sayilar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+var sonuc1 = sayilar.filter({$0 > 7})
+print(sonuc1)
+
+var sonuc2 = sayilar.filter({$0 < 7})
+print(sonuc2)
+
+var sonuc3 = sayilar.filter({$0 > 3 && $0 < 7})
+print(sonuc3)
