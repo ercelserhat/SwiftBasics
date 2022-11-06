@@ -50,3 +50,85 @@ print(sonuc2)
 
 var sonuc3 = sayilar.filter({$0 > 3 && $0 < 7})
 print(sonuc3)
+
+//EXAMPLE - 1 / ORTALAMA HESAPLAMA
+var data = [30, 40, 45, 56, 50, 10, 90, 75]
+var toplam = 0
+
+for s in data{
+    toplam += s
+}
+
+print("Toplam: \(toplam), Ortalama: \(toplam / data.count)")
+
+//EXAMPLE - 2 / İÇERİK DEĞİŞTİRME
+var numbers = [1, 2, 3, 4, 5]
+
+for (index, s) in numbers.enumerated(){
+    let sonuc = s * 5
+    numbers[index] = sonuc
+}
+print(numbers)
+
+//EXAMPLE - 3 / TEK ÇİFT SAYILAR
+var tekCiftArray = [1, 5, 8, 9, 12, 24, 37, 39, 40]
+var tekler = [Int]()
+var ciftler = [Int]()
+
+for s in tekCiftArray {
+    if s % 2 == 0 {
+        ciftler.append(s)
+    }else{
+        tekler.append(s)
+    }
+}
+print("Tek sayılar: \(tekler)")
+print("Çift sayılar: \(ciftler)")
+
+//EXAMPLE - 4 / RASTGELE SAYI ÜRETMEK
+var sayilar2 = [Int]()
+
+for _ in 1...10{
+    let rastgeleSayi = Int.random(in: 1...10)
+    sayilar2.append(rastgeleSayi)
+}
+sayilar2.sort()
+print(sayilar2)
+
+//EXAMPLE - 5 / KARNE UYGULAMASI
+var notlar = [Int]()
+var dersler = [String]()
+
+dersler.append("Türkçe")
+notlar.append(50)
+
+dersler.append("Matematik")
+notlar.append(60)
+
+dersler.append("Fizik")
+notlar.append(70)
+
+dersler.append("Kimya")
+notlar.append(80)
+
+var notOrtalamasi = 0
+
+for i in 0...(dersler.count - 1){
+    print("\(dersler[i]) : \(notlar[i]) ")
+    notOrtalamasi += notlar[i]
+}
+print("Ortalama: \(notOrtalamasi / dersler.count)")
+
+
+//EXAMPLE - 6 / İSİM ARAMA
+var isimler = ["Serhat", "Ahmet", "Mehmet", "Zeynep", "Serhat", "Kadir"]
+var kontrolIsim = "Serhat"
+
+for i in isimler{
+    if i == kontrolIsim{
+        print("İsim dizide mevcuttur.")
+        break
+    }else{
+        print("İsim mevcut değildir.")
+    }
+}
