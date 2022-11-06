@@ -12,5 +12,6 @@
         <page name='9-Optional'/>
         <page name='10-Arrays'/>
         <page name='11-Sets'/>
+        <page name='12-Dictionaries'/>
     </pages>
 </playground>
