@@ -13,5 +13,8 @@
         <page name='10-Arrays'/>
         <page name='11-Sets'/>
         <page name='12-Dictionaries'/>
+        <page name='13-OOP-ClassAndStructure'/>
+        <page name='14-OOP-CarExample'/>
+        <page name='15-OOP-BusExample'/>
     </pages>
 </playground>
