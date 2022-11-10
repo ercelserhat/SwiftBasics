@@ -16,5 +16,6 @@
         <page name='13-OOP-ClassAndStructure'/>
         <page name='14-OOP-CarExample'/>
         <page name='15-OOP-BusExample'/>
+        <page name='16-OOP-LazyStoredProperties'/>
     </pages>
 </playground>
