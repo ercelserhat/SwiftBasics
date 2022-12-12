@@ -17,5 +17,6 @@
         <page name='14-OOP-CarExample'/>
         <page name='15-OOP-BusExample'/>
         <page name='16-OOP-LazyStoredProperties'/>
+        <page name='17-ComputedProperties'/>
     </pages>
 </playground>
