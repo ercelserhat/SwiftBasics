@@ -93,3 +93,19 @@ h.topla(sayi1: 2, sayi2: 3)
 h.topla(sayi1: 3.0, sayi2: 4)
 h.topla(sayi1: 5, sayi2: 6.0)
 h.topla(sayi1: 7, sayi2: 8, ad: "Serhat")
+
+
+//Variadic Parameters
+func toplamVariadic(sayilar:Int...) -> Int{
+    var toplam = 0
+    for s in sayilar{
+        toplam += s
+    }
+    return toplam
+}
+
+var v1 = toplamVariadic(sayilar: 1, 2, 3, 4, 5)
+print(v1)
+
+var v2 = toplamVariadic(sayilar: 1, 2, 3, 4, 5, 6, 7, 8, 9)
+print(v2)
