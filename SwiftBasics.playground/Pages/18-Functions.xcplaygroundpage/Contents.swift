@@ -72,3 +72,24 @@ var c = m.cikar(sayi1: 100.0, sayi2: 40.0)
 print(c)
 m.carp(sayi1: 30, sayi2: 20, isim: "Serhat")
 print(m.bol(sayi1: 100.0, sayi2: 50.0))
+
+//Method Overloading
+class Hesaplayici{
+    func topla(sayi1:Int, sayi2:Int){
+        print("Toplam: \(sayi1 + sayi2)")
+    }
+    func topla(sayi1:Double, sayi2:Int){
+        print("Toplam: \(sayi1 + Double(sayi2))")
+    }
+    func topla(sayi1:Int, sayi2:Double){
+        print("Toplam: \(Double(sayi1) + sayi2)")
+    }
+    func topla(sayi1:Int, sayi2:Int, ad:String){
+        print("Toplam yapan: \(ad), Toplam: \(sayi1 + sayi2)")
+    }
+}
+var h = Hesaplayici()
+h.topla(sayi1: 2, sayi2: 3)
+h.topla(sayi1: 3.0, sayi2: 4)
+h.topla(sayi1: 5, sayi2: 6.0)
+h.topla(sayi1: 7, sayi2: 8, ad: "Serhat")
