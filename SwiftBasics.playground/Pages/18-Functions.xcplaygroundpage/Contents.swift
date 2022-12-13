@@ -138,3 +138,11 @@ var a = hesapla(sayi1: 10, sayi2: 20)
 if let t = a{
     print("Sonuç: \(t)")
 }
+
+//Global and local parameters
+func myCalc(sayi1 s1:Int, sayi2 s2:Int) -> Int{
+    let sonuc = s1 * 2 + s2 * 4
+    return sonuc
+}
+var y = myCalc(sayi1: 10, sayi2: 20)
+print(y)
