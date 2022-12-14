@@ -24,5 +24,6 @@
         <page name='21-DifferencesClassAndStruct'/>
         <page name='22-StaticVariablesAndFunctions'/>
         <page name='23-Enumeration'/>
+        <page name='24-Composition'/>
     </pages>
 </playground>
