@@ -20,5 +20,6 @@
         <page name='17-ComputedProperties'/>
         <page name='18-Functions'/>
         <page name='19-OOP-Homeworks'/>
+        <page name='20-Initialization'/>
     </pages>
 </playground>
