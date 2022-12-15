@@ -30,5 +30,6 @@
         <page name='27-Polymorphism'/>
         <page name='28-Extension'/>
         <page name='29-Protocol'/>
+        <page name='30-Closure'/>
     </pages>
 </playground>
