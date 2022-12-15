@@ -36,3 +36,37 @@ print(nissan.model!)
 print(nissan.kasaTipi!)
 print(nissan.renk!)
 print(nissan.vites!)
+
+//Inheritance Example-2
+
+class Ev{
+    var pencereSayisi:Int?
+    init(pencereSayisi:Int) {
+        self.pencereSayisi = pencereSayisi
+    }
+}
+
+class Saray:Ev{
+    var kuleSayisi:Int?
+    init(kuleSayisi:Int, pencereSayisi:Int) {
+        self.kuleSayisi = kuleSayisi
+        super.init(pencereSayisi: pencereSayisi)
+    }
+}
+
+class Villa:Ev{
+    var garajVarmi:Bool?
+    init(garajVarmi:Bool, pencereSayisi:Int) {
+        self.garajVarmi = garajVarmi
+        super.init(pencereSayisi: pencereSayisi)
+    }
+}
+
+var saray = Saray(kuleSayisi: 5, pencereSayisi: 30)
+var villa = Villa(garajVarmi: true, pencereSayisi: 10)
+
+print(saray.kuleSayisi!) //5
+print(saray.pencereSayisi!) //30
+
+print(villa.garajVarmi!) //true
+print(villa.pencereSayisi!) //10
