@@ -25,5 +25,6 @@
         <page name='22-StaticVariablesAndFunctions'/>
         <page name='23-Enumeration'/>
         <page name='24-Composition'/>
+        <page name='25-Inheritance'/>
     </pages>
 </playground>
