@@ -70,3 +70,23 @@ print(saray.pencereSayisi!) //30
 
 print(villa.garajVarmi!) //true
 print(villa.pencereSayisi!) //10
+
+//Object type casting
+if villa is Saray{
+    print("Saraydır.")
+}else{
+    print("Saray değildir.")
+}
+
+//Upcasting
+var ev1:Ev = Saray(kuleSayisi: 3, pencereSayisi: 20) as Ev
+
+//Downcasting
+var ev2 = Ev(pencereSayisi: 7)
+var saray2:Saray = ev2 as! Saray
+
+var ev3 = Ev(pencereSayisi: 8)
+var saray3 = ev3 as? Saray
+
+
+
