@@ -28,5 +28,6 @@
         <page name='25-Inheritance'/>
         <page name='26-Override'/>
         <page name='27-Polymorphism'/>
+        <page name='28-Extension'/>
     </pages>
 </playground>
