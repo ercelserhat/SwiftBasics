@@ -36,5 +36,6 @@
         <page name='33-OOP-CompositionExample'/>
         <page name='34-OOP-SetExample'/>
         <page name='35-OOP-DictionaryExample'/>
+        <page name='36-String'/>
     </pages>
 </playground>
