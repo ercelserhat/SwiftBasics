@@ -31,5 +31,6 @@
         <page name='28-Extension'/>
         <page name='29-Protocol'/>
         <page name='30-Closure'/>
+        <page name='31-OOP-ArrayExample'/>
     </pages>
 </playground>
