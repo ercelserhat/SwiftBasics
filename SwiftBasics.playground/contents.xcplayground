@@ -34,5 +34,6 @@
         <page name='31-OOP-ArrayExample'/>
         <page name='32-OOP-SortExample'/>
         <page name='33-OOP-CompositionExample'/>
+        <page name='34-OOP-SetExample'/>
     </pages>
 </playground>
