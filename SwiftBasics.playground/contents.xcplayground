@@ -39,5 +39,6 @@
         <page name='36-String'/>
         <page name='37-Guard'/>
         <page name='38-DoTryCatch'/>
+        <page name='39-DispatchQueue-Thread'/>
     </pages>
 </playground>
